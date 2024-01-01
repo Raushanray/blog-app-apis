@@ -1,0 +1,9 @@
+package com.codewithraushanblog.repositories;
+
+import com.codewithraushanblog.entities.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepo extends JpaRepository<Category, Integer> {
+
+
+}
